@@ -1,0 +1,19 @@
+class Avg
+{
+	public static void main(String []args)
+	{
+		int sum=0,c=0;
+		int []i = new int[5];
+		i[0]=27;
+		i[1]=34;
+		i[2]=44;
+		i[3]=54;
+		i[4]=74;
+		for(int s=0;s<i.length;s++)
+		{
+			sum=sum+i[s];
+			c++;
+		}
+		System.out.printf("%.1f",(float)sum/c);
+	}
+}
