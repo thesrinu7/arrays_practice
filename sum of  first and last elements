@@ -1,0 +1,20 @@
+import java.util.*;
+class FIrstandlast
+{
+	public static void main(String []args)
+	{
+		Scanner sc=new Scanner(System.in);
+		int s=sc.nextInt();
+		int arr []=new int[s];
+		for(int i=0;i<s;i++)
+		{
+			arr[i]=sc.nextInt();
+		}
+		int first=arr[0];
+		int sec=arr[s-1];
+		int sum=first+sec;
+		System.out.println("\n"+"sum of the first and last element:"+sum);
+	}
+}
+		
+		
