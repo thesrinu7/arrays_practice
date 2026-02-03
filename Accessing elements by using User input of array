@@ -1,0 +1,20 @@
+import java.util.*;
+class User
+{
+	public static void main(String []args)
+	{
+		Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();
+		int arr []=new int[a];
+		for(int i=0;i<a;i++)
+		{
+			arr[i]=sc.nextInt();
+		}
+		System.out.print("array elements by using user input: ");
+		for(int i=0;i<a;i++)
+		{
+			System.out.print(arr[i]+" ");
+		}
+
+	}
+}
